@@ -1,0 +1,45 @@
+
+body {
+  text-align: center;
+}
+section{
+  display: inline-block;
+  position: relative;
+}
+.bigbox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin:20px;
+  top:0;
+}
+.medianbox{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.smallbox{
+  width: 50px;
+  height: 50px;
+}
+#boxred{
+  background-color:#ED462F ;
+}
+#boxpurple{
+  background-color: #752E80;
+  left: 50px;
+  bottom: 50px;
+}
+#boxyellow{
+  background-color: #FFF835;
+}
+#boxblue{
+  background-color: #0048FB;
+}
+#boxblack{
+  background-color: #000000;
+}
+#boxgreen{
+  background-color: #387804;
+  left: 50px;
+}

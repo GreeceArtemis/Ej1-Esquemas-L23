@@ -1,0 +1,26 @@
+var section=document.getElementById("box");
+var boxred=document.createElement("div");
+  boxred.setAttribute("class","bigbox");
+  boxred.setAttribute("id","boxred");
+var boxpurple=document.createElement("div");
+  boxpurple.setAttribute("class","medianbox");
+  boxpurple.setAttribute("id","boxpurple");
+var boxyellow=document.createElement("div");
+  boxyellow.setAttribute("class","smallbox");
+  boxyellow.setAttribute("id","boxyellow");
+  boxpurple.appendChild(boxyellow);
+  boxred.appendChild(boxpurple);
+  section.appendChild(boxred);
+//
+var boxblue=document.createElement("div");
+  boxblue.setAttribute("class","bigbox");
+  boxblue.setAttribute("id","boxblue");
+var boxblack=document.createElement("div");
+  boxblack.setAttribute("class","medianbox");
+  boxblack.setAttribute("id","boxblack");
+  boxblue.appendChild(boxblack);
+var boxgreen=document.createElement("div");
+  boxgreen.setAttribute("class","smallbox");
+  boxgreen.setAttribute("id","boxgreen");
+  boxblue.appendChild(boxgreen);
+  section.appendChild(boxblue);
